@@ -1,0 +1,27 @@
+/* styles/Navbar.css */
+.navbar-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease, font-size 0.5s ease;
+    font-size: 1rem;
+  }
+  
+  .navbar-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    font-size: 1.5rem;
+  }
+  
+  .nav-link-enter {
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.5s ease, transform 0.5s ease, font-size 0.5s ease;
+    font-size: 1rem;
+  }
+  
+  .nav-link-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    font-size: 1.5rem;
+  }
+  
